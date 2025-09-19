@@ -29,3 +29,15 @@ main{
     background-color: #DA6062;
 }
 
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 24px;
+    color: #FFFFFF;
+    justify-content: left;
+}
+header span{
+    font-size: 600;
+}
+
