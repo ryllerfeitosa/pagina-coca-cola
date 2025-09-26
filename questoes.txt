@@ -1,0 +1,69 @@
+Respostas do questionário
+
+1.	Um repositório no git é um local onde armazenamos diretórios de códigos e outros arquivos na nuvem, 
+além do armazenamento na nuvem, o repositório armazena todo o histórico de alterações que todos fizeram no repositório.
+
+2.	O git bash é um terminal que vem junto com o git para os sistemas operacionais, 
+sua importância é executar comandos Git, como o git init, git push, etc.
+
+3.	O git add adiciona todas as alterações que foram feitas no diretório, o git add . adiciona todas as alterações que foram feitas nos diretórios,
+enquanto o git add <arquivo> adiciona as alterações que foram feitas apenas em um único diretório em específico.
+
+4. Para adicionar todas as alterações que foram feitas em todos os diretórios do projeto.
+
+5. O git commit (guardar) tem como utilidade registrar uma versåo do projeto em um determinado tempo da história, 
+a mensagem é importante pelo da mesma registrar quais alterações foram feitas nesse novo registro.
+
+6. O git push (Empurrar) tem como utilidade adicionar o diretório atualizado no github,
+sem esse comando o diretório nåo será registrado dentro do github.
+
+7. A importância é registrar todas as alterações que ocorreram durante o desenvolvimento do projeto.
+
+8. As tags HTML tem como utilidade selecionar os itens que estaråo disponibilizados na página,
+basicamente elas dizem ao navegador como mostrar o conteúdo de uma página web. As tags HTML såo blocos de construçåo,
+elas estruturam a página como se fosse um esqueleto.
+
+9. Os atributos såo informaçoes extras colocadas dentro de uma tag HTML para modificar ou complementar o comportamento dessa tag,
+a funçåo dos atributos é personalizar ou configurar como o navegador deve interpretar aquela tag.
+
+10. O emmet é um plugin/atalho de produtividade para editores de código (como Vs Code, Sublime Text, Etc),
+que permite escrever abreviaçoes curtas em HTML e CSS e expandi-las automaticamente em código completo.
+É basicamente uma variável que armazena um trecho de código, como o "!"no HTML.
+
+11. O box sizing tem como utilidade formatar o conteúdo em uma caixa com tamanho específico, sem ele o conteúdo pode assumir um tamanho acima do que
+foi programado, por exemplo: div {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+O navegador entende assim: Conteúdo (width): 200px, Padding: 20px de cada lado → +40px, Border: 5px de cada lado → +10px, Tamanho final = 250px.
+
+Com o box-sizing: div {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  box-sizing: border-box;
+}
+
+Agora o navegador entende:
+
+Tudo (conteúdo + padding + borda) tem que caber dentro dos 200px.
+
+Tamanho final = 200px.
+
+12. É importante por muitos motivos, dentre eles a organizaçao e manutençao do código, demonstrar a hierarquia da página.
+
+13. Media queries são condições no CSS que permitem aplicar estilos diferentes dependendo das características do dispositivo do usuário.
+Em outras palavras, elas fazem o site se adaptar a diferentes dispositivos (celulares, tablets, desktops).
+
+14. O GitHub Pages é um serviço do GitHub que permite hospedar sites estáticos diretamente de um repositório.
+
+15. Flexbox (Flexible Box) é um modo de layout do CSS que facilita organizar elementos dentro de um container, mesmo quando o tamanho da tela muda.
+Serve para alinhamento horizontal e vertical, espaçamento uniforme e adaptação de layouts sem usar floats ou posicionamento complexo.
+
+16. o Justify-content controla o alinhamento horizontal, enquanto o align-items controla o alinhamento vertical (no flex box).
+
+17. O flex-grow define quanto um item deve crescer em relação aos outros para ocupar o espaço disponível dentro do container.
+
+18. No flex-direction: row organiza os itens horizontalmente (linha), enquanto o flex-direction: column organiza os intens em verticalmente (coluna).
